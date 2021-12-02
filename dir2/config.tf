@@ -1,4 +1,6 @@
 terraform {
+  required_version = "1.0.11"
+
   # https://www.terraform.io/docs/backends/types/s3.html
   backend "s3" {
     region = "ap-northeast-1"
