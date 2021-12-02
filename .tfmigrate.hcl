@@ -8,7 +8,8 @@ tfmigrate {
 
       # mock s3 endpoint with localstack
       # AWS_S3_ENDPOINT doesn't seem to work with tfmigrate
-      endpoint                    = "http://localhost:4566"
+      endpoint                    = "http://localstack:4566"
+      # endpoint                    = "http://localhost:24566"
       access_key                  = "dummy"
       secret_key                  = "dummy"
       skip_credentials_validation = true
